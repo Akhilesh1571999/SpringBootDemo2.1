@@ -1,0 +1,24 @@
+2023-03-27 11:21:42.929  INFO 14352 --- [main] c.p.service.EmployeeServiceImplTest      : Starting EmployeeServiceImplTest using Java 1.8.0_241 on Akhilesh-Gargatte with PID 14352 (started by akhil in C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1)
+2023-03-27 11:21:42.942  INFO 14352 --- [main] c.p.service.EmployeeServiceImplTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 11:21:44.596  INFO 14352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 11:21:44.688  INFO 14352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2023-03-27 11:21:45.843  INFO 14352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 11:21:45.941  INFO 14352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-27 11:21:46.272  INFO 14352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-27 11:21:46.912  INFO 14352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-27 11:21:47.290  INFO 14352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-27 11:21:47.325  INFO 14352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-27 11:21:48.303  INFO 14352 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 11:21:48.318  INFO 14352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 11:21:49.779  WARN 14352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 11:21:49.958  INFO 14352 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-03-27 11:21:50.301  INFO 14352 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-27 11:21:51.437  INFO 14352 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-27 11:21:51.470  INFO 14352 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-27 11:21:51.521  INFO 14352 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-27 11:21:51.763  INFO 14352 --- [main] c.p.service.EmployeeServiceImplTest      : Started EmployeeServiceImplTest in 9.333 seconds (JVM running for 11.565)
+2023-03-27 11:21:52.069  INFO 14352 --- [main] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> saveEmployee
+2023-03-27 11:21:52.110  INFO 14352 --- [main] com.project.service.EmployeeServiceImpl  : end: EmployeeServiceImpl --> saveEmployee : Employee saved Employee [id=1, name=Aniket, city=Belgaum]
+2023-03-27 11:21:52.141  INFO 14352 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 11:21:52.143  INFO 14352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-27 11:21:52.157  INFO 14352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,126 @@
+2023-03-05 06:36:57.870  INFO 11428 --- [main] com.project.Application                  : Starting Application using Java 1.8.0_241 on Akhilesh-Gargatte with PID 11428 (C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1\target\classes started by akhil in C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1)
+2023-03-05 06:36:57.874  INFO 11428 --- [main] com.project.Application                  : No active profile set, falling back to 1 default profile: "default"
+2023-03-05 06:36:59.269  INFO 11428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05 06:36:59.355  INFO 11428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-03-05 06:37:00.157  INFO 11428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05 06:37:00.179  INFO 11428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05 06:37:00.180  INFO 11428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-05 06:37:00.442  INFO 11428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-05 06:37:00.443  INFO 11428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2498 ms
+2023-03-05 06:37:00.816  INFO 11428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05 06:37:00.916  INFO 11428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-05 06:37:01.192  INFO 11428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 06:37:01.394  INFO 11428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05 06:37:02.442  INFO 11428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05 06:37:02.476  INFO 11428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-05 06:37:03.465  INFO 11428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 06:37:03.483  INFO 11428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 06:37:04.269  WARN 11428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05 06:37:04.706  INFO 11428 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-05 06:37:05.108  INFO 11428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-05 06:37:05.109  INFO 11428 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-05 06:37:05.146  INFO 11428 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-05 06:37:05.203  INFO 11428 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-05 06:37:05.511  INFO 11428 --- [main] com.project.Application                  : Started Application in 8.333 seconds (JVM running for 9.736)
+2023-03-05 06:39:02.240  INFO 11428 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05 06:39:02.240  INFO 11428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05 06:39:02.248  INFO 11428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-05 06:39:02.449  INFO 11428 --- [http-nio-8080-exec-2] c.project.controller.EmployeeController  : start:EmployeeController --> addEmp
+2023-03-05 06:39:02.449  INFO 11428 --- [http-nio-8080-exec-2] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> saveEmployee
+2023-03-05 06:39:02.570  INFO 11428 --- [http-nio-8080-exec-2] com.project.service.EmployeeServiceImpl  : end: EmployeeServiceImpl --> saveEmployee : Employee saved Employee [id=4, name=Kalpana, city=nashik]
+2023-03-05 06:39:02.570  INFO 11428 --- [http-nio-8080-exec-2] c.project.controller.EmployeeController  : end:EmployeeController --> addEmp:Employee added Employee [id=4, name=Kalpana, city=nashik]
+2023-03-05 07:01:01.204  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-05 07:01:01.731  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-05 07:01:01.733  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-05 07:01:01.752  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 07:01:01.756  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05 07:01:01.773  INFO 11428 --- [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-05 07:15:09.221  INFO 14820 --- [main] com.project.Application                  : Starting Application using Java 1.8.0_241 on Akhilesh-Gargatte with PID 14820 (C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1\target\classes started by akhil in C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1)
+2023-03-05 07:15:09.227  INFO 14820 --- [main] com.project.Application                  : No active profile set, falling back to 1 default profile: "default"
+2023-03-05 07:15:10.736  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05 07:15:10.869  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces.
+2023-03-05 07:15:11.916  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05 07:15:11.939  INFO 14820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05 07:15:11.941  INFO 14820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-05 07:15:12.308  INFO 14820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-05 07:15:12.309  INFO 14820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2990 ms
+2023-03-05 07:15:12.779  INFO 14820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05 07:15:12.893  INFO 14820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-05 07:15:13.255  INFO 14820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 07:15:13.504  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05 07:15:14.891  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05 07:15:14.946  INFO 14820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-05 07:15:16.317  INFO 14820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 07:15:16.342  INFO 14820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 07:15:17.422  WARN 14820 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05 07:15:17.950  INFO 14820 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-05 07:15:18.513  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-05 07:15:18.515  INFO 14820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-05 07:15:18.573  INFO 14820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-05 07:15:18.657  INFO 14820 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-05 07:15:19.061  INFO 14820 --- [main] com.project.Application                  : Started Application in 10.702 seconds (JVM running for 12.56)
+2023-03-05 07:15:51.569  INFO 14820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05 07:15:51.569  INFO 14820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05 07:15:51.569  INFO 14820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-05 07:15:51.670  INFO 14820 --- [http-nio-8080-exec-1] c.project.controller.EmployeeController  : start:EmployeeController --> getEmpById 100
+2023-03-05 07:15:51.670  INFO 14820 --- [http-nio-8080-exec-1] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> getById 100
+2023-03-05 07:15:51.670  INFO 14820 --- [http-nio-8080-exec-1] com.project.service.EmployeeServiceImpl  : End: EmployeeServiceImpl --> getById 100
+2023-03-05 07:16:01.599  INFO 14820 --- [http-nio-8080-exec-2] c.project.controller.EmployeeController  : start:EmployeeController --> getEmpById 1
+2023-03-05 07:16:01.599  INFO 14820 --- [http-nio-8080-exec-2] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> getById 1
+2023-03-05 07:16:01.599  INFO 14820 --- [http-nio-8080-exec-2] com.project.service.EmployeeServiceImpl  : End: EmployeeServiceImpl --> getById 1
+2023-03-05 07:16:01.659  INFO 14820 --- [http-nio-8080-exec-2] c.project.controller.EmployeeController  : End:EmployeeController --> getEmpById 1
+2023-03-05 07:16:09.789  INFO 14820 --- [http-nio-8080-exec-4] c.project.controller.EmployeeController  : start:EmployeeController --> getAll
+2023-03-05 07:16:09.789  INFO 14820 --- [http-nio-8080-exec-4] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> getAllEmployee
+2023-03-05 07:16:10.129  INFO 14820 --- [http-nio-8080-exec-4] com.project.service.EmployeeServiceImpl  : End: EmployeeServiceImpl --> getAllEmployee
+2023-03-05 07:16:10.129  INFO 14820 --- [http-nio-8080-exec-4] c.project.controller.EmployeeController  : End:EmployeeController --> getAll
+2023-03-05 07:16:19.934  INFO 14820 --- [http-nio-8080-exec-5] c.project.controller.EmployeeController  : start:EmployeeController --> getAllEmployeeByPage 0
+2023-03-05 07:16:19.934  INFO 14820 --- [http-nio-8080-exec-5] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> getAllEmployeeByPage 0
+2023-03-05 07:16:19.979  INFO 14820 --- [http-nio-8080-exec-5] com.project.service.EmployeeServiceImpl  : End: EmployeeServiceImpl --> getAllEmployeeByPage [Employee [id=1, name=Ajinkya, city=Sangli], Employee [id=2, name=Akhilesh, city=BGM]]
+2023-03-05 07:16:19.979  INFO 14820 --- [http-nio-8080-exec-5] c.project.controller.EmployeeController  : End:EmployeeController --> getAllEmployeeByPage : Successfully fetched 0
+2023-03-05 07:16:26.094  INFO 14820 --- [http-nio-8080-exec-6] c.project.controller.EmployeeController  : start:EmployeeController --> getAllEmployeeBySorting 
+2023-03-05 07:16:26.094  INFO 14820 --- [http-nio-8080-exec-6] com.project.service.EmployeeServiceImpl  : start: EmployeeServiceImpl --> getAllEmployeeBySorting
+2023-03-05 07:16:26.135  INFO 14820 --- [http-nio-8080-exec-6] com.project.service.EmployeeServiceImpl  : End: EmployeeServiceImpl --> getAllEmployeeBySorting
+2023-03-05 07:16:26.135  INFO 14820 --- [http-nio-8080-exec-6] c.project.controller.EmployeeController  : End:EmployeeController --> getAllEmployeeBySorting :Successfully fetched 
+2023-03-05 07:17:16.739  INFO 14820 --- [http-nio-8080-exec-9] c.project.controller.EmployeeController  : start:EmployeeController --> getEmpByCityAndName test 
+2023-03-05 07:17:16.779  INFO 14820 --- [http-nio-8080-exec-9] c.project.controller.EmployeeController  : End:EmployeeController --> getEmpByCityAndName [] 
+2023-03-05 07:17:56.320  INFO 14820 --- [http-nio-8080-exec-10] c.project.controller.EmployeeController  : start:EmployeeController --> getEmpByCity sangli 
+2023-03-05 07:17:56.331  INFO 14820 --- [http-nio-8080-exec-10] c.project.controller.EmployeeController  : End:EmployeeController --> getEmpByCity [Employee [id=1, name=Ajinkya, city=Sangli]] 
+2023-03-05 07:18:21.647  INFO 14820 --- [http-nio-8080-exec-3] c.project.controller.EmployeeController  : start:EmployeeController --> getEmpByCityAndName sangli 
+2023-03-05 07:18:21.652  INFO 14820 --- [http-nio-8080-exec-3] c.project.controller.EmployeeController  : End:EmployeeController --> getEmpByCityAndName [Employee [id=1, name=Ajinkya, city=Sangli]] 
+2023-03-05 07:18:36.059  INFO 14820 --- [http-nio-8080-exec-1] c.project.controller.EmployeeController  : start:EmployeeController --> test sangli 
+2023-03-05 07:18:36.138  INFO 14820 --- [http-nio-8080-exec-1] c.project.controller.EmployeeController  : End:EmployeeController --> test Employee [id=1, name=Ajinkya, city=Sangli] 
+2023-03-05 07:18:53.269  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-05 07:18:53.834  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-05 07:18:53.838  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-05 07:18:53.863  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 07:18:53.867  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05 07:18:53.886  INFO 14820 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-05 20:06:08.277  INFO 31832 --- [main] com.project.Application                  : Starting Application using Java 1.8.0_241 on Akhilesh-Gargatte with PID 31832 (C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1\target\classes started by akhil in C:\Users\akhil\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SpringBootDemo2.1)
+2023-03-05 20:06:08.280  INFO 31832 --- [main] com.project.Application                  : No active profile set, falling back to 1 default profile: "default"
+2023-03-05 20:06:08.887  INFO 31832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05 20:06:08.933  INFO 31832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-03-05 20:06:09.342  INFO 31832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05 20:06:09.351  INFO 31832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05 20:06:09.351  INFO 31832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-05 20:06:09.488  INFO 31832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-05 20:06:09.488  INFO 31832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2023-03-05 20:06:09.718  INFO 31832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05 20:06:09.779  INFO 31832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-05 20:06:09.949  INFO 31832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 20:06:10.060  INFO 31832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05 20:06:10.623  INFO 31832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05 20:06:10.643  INFO 31832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-05 20:06:11.236  INFO 31832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 20:06:11.246  INFO 31832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 20:06:11.749  WARN 31832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05 20:06:12.031  INFO 31832 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-05 20:06:12.291  INFO 31832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-05 20:06:12.292  INFO 31832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-05 20:06:12.315  INFO 31832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-05 20:06:12.346  INFO 31832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-05 20:06:12.533  INFO 31832 --- [main] com.project.Application                  : Started Application in 4.572 seconds (JVM running for 5.214)
+2023-03-05 21:54:05.677  INFO 31832 --- [RMI TCP Connection(118)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-05 21:54:06.201  INFO 31832 --- [RMI TCP Connection(118)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-05 21:54:06.247  INFO 31832 --- [RMI TCP Connection(118)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05 21:54:06.276  INFO 31832 --- [RMI TCP Connection(118)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05 21:54:06.284  INFO 31832 --- [RMI TCP Connection(118)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
